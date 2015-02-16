@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BarcodeScanner", "BarcodeScanner\BarcodeScanner.jsproj", "{1B5F73CB-87FF-4E20-A4C4-4F75CC1F9402}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFB5B41D-C8F7-4DB7-8C23-DCD3C573E699}"
 	ProjectSection(SolutionItems) = preProject
 		WebEssentials-Settings.json = WebEssentials-Settings.json
 	EndProjectSection
+EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BarcodeScanner", "BarcodeScanner.jsproj", "{1B5F73CB-87FF-4E20-A4C4-4F75CC1F9402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
