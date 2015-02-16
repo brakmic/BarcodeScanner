@@ -58,7 +58,7 @@ halts the App execution.
 Luckilly, manual compiling an deployment to a real device is still possible. Via Console go to Cordova's *build directory* and execute the
 *build.bat* to generate a new APK package. 
 
-<img src="http://w04.imgup.net/cordova_bu1392.png" />
+<img src="http://g72.imgup.net/cordova_bud1b9.png" />
 *Cordova's Build Directory with build- & run-Scripts*
 
 <img src="http://r35.imgup.net/build_andr0be4.png" />
