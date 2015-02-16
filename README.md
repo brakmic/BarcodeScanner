@@ -2,7 +2,7 @@
 
 This demo utilizes Cordova's <a href=https://github.com/wildabeast/BarcodeScanner"">barcode plugin</a>.
 
-To compile this solution <a href="http://www.visualstudio.com/en-us/explore/cordova-vs.aspx">VS 2013 Tools for Apache Cordova - CTP3</a> must be installed.
+To compile the solution <a href="http://www.visualstudio.com/en-us/explore/cordova-vs.aspx">VS 2013 Tools for Apache Cordova - CTP3</a> must be installed.
 
 This installer will download the Cordova runtime, SDKs etc. If you already have Android SDK/NDK etc. you can change their paths in 
 
