@@ -2,15 +2,23 @@
 
 This demo utilizes Cordova's <a href=https://github.com/wildabeast/BarcodeScanner"">barcode plugin</a>, <a href="http://knockoutjs.com/" target="_blank">KnockoutJS</a> and a RESTful Service from <a href="http://www.outpan.com" target="_blank">Outpan.com</a> to gather Product information.
 
-To be able to use the Service a valid (free) registration is needed. After the registration the generated API-Key should be inserted in *scripts/modules/scanner.js*
+We, at <a href="http://www.advarics.net">advarics GmbH</a>, use similar techniques plus some UI-frameworks, like Telerik's Kendo or DevExpress, to provide our customers instant information regarding their products & sales. 
+This example wants to show how easy a barcode scanner can be developed without touching the device-specific languages (Java, Objective-C) and environments (Android, iOS). 
 
-**API-Key**
+Thanks to Cordova and Microsoft's Visual Studio Tools the development of mobile apps is straightforward and easy. Of course, the current VS Tools are in CTP and I encountered some problems while trying to run the App in the Android emulator. However, I expect them to disappear when
+the final version arrives.
+
+
+
+**Prerequisites: API-Key**
+
+*To be able to use the Product-Service from Outpan.com a valid (free) registration is needed. After the registration the generated API-Key should be inserted in scripts/modules/scanner.js*
 
 <img src="http://o33.imgup.net/api_key7850.png" />
 
 To compile the solution <a href="http://www.visualstudio.com/en-us/explore/cordova-vs.aspx">VS 2013 Tools for Apache Cordova - CTP3</a> must be installed.
 
-This installer will download the Cordova runtime, SDKs etc. If you already have Android SDK/NDK you can change their paths in: 
+This installer will download the Cordova runtime, SDKs etc. If you already have the Android SDKs/NDKs you can change their paths in: 
 
 *Tools/Options/Tools for Apache Cordova*
 
