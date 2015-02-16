@@ -1,6 +1,12 @@
 ﻿**Barcode Scanner App with Visual Studio & Cordova**
 
-This demo utilizes Cordova's <a href=https://github.com/wildabeast/BarcodeScanner"">barcode plugin</a>.
+This demo utilizes Cordova's <a href=https://github.com/wildabeast/BarcodeScanner"">barcode plugin</a>, <a href="http://knockoutjs.com/" target="_blank">KnockoutJS</a> and a RESTful Service from <a href="http://www.outpan.com" target="_blank">Outpan.com</a> to gather Product information.
+
+To be able to use the Service a valid (free) registration is needed. After the registration the generated API-Key should be inserted in *scripts/modules/scanner.js*
+
+**API-Key**
+
+<img src="http://o33.imgup.net/api_key7850.png" />
 
 To compile the solution <a href="http://www.visualstudio.com/en-us/explore/cordova-vs.aspx">VS 2013 Tools for Apache Cordova - CTP3</a> must be installed.
 
