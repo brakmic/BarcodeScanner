@@ -74,7 +74,7 @@ These settings allow the installation of unsigned APK packages. More info <a hre
 
 **Final result**
 
-<img src="http://x14.imgup.net/barcode_sca36d.png" style="max-width:30%;"/>
+<img src="http://x14.imgup.net/barcode_sca36d.png"/>
 
 
 **License**
