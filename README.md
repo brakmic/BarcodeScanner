@@ -18,7 +18,7 @@ This installer will download the Cordova runtime, SDKs etc. If you already have 
 
 **Ripple Emulator**
 
-VS2013 Tools for Cordova include the browser-based Ripple-Emulator which can emulate many different devices and form factors.
+VS2013 Tools for Cordova include the browser-based Ripple-Emulator which can emulate many different devices & form factors.
 
 <img src="http://e83.imgup.net/ripple_emu24cd.png" /> 
 
@@ -33,8 +33,8 @@ under *Settings/Cross Domain Proxy*
 
 **Plugin installation**
 
-The default project settings contain no Barcode scanner plugin. But this can be changed very easily by selecting the config.xml.
-In the new window open the Plugins section and select Tab *Custom*
+The default project settings contain no Barcode scanner plugin. But this can be changed very easily by selecting the *config.xml*.
+In the new window open the *Plugins* section and select Tab *Custom*
 
 Here the plugin can be installed as a local file or via its GitHub URL.
 
