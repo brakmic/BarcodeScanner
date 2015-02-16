@@ -1,0 +1,21 @@
+﻿body {
+}
+
+.product-title {
+    position: relative;
+    padding: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: magenta;
+}
+
+.product-image {
+    position: relative;
+    padding-top: 1em;
+    max-height: 150px; 
+    max-width: 150px; 
+}
+
+#page-header{
+    padding-left: 2em;
+}
