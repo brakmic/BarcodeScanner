@@ -44,18 +44,17 @@ halts the App execution.
 Luckilly, manual compiling an deployment to a real device is still possible. Via Console go to Cordova's *build directory* and execute the
 *build.bat* to generate a new APK package. 
 
+<img src="http://w04.imgup.net/cordova_bu1392.png" />
 *Cordova's Build Directory with build- & run-Scripts*
 
-<img src="http://w04.imgup.net/cordova_bu1392.png" />
-
+<img src="http://r35.imgup.net/build_andr0be4.png" />
 *Executing build.bat*
 
-<img src="http://r35.imgup.net/build_andr0be4.png" />
 
-*Executing run.bat*
+**Deploying APK to device**
 
-Before executing run.bat an Android device with activated *Developer Options* must be attached to the machine.
-The *Developer Options* allow the installation of unsigned APK packages. More info on this <a href="http://developer.android.com/tools/device.html" target="_blank">here</a>.
+Before executing *run.bat* the attached Android device must activate its *Developer Options*.
+These settings allow the installation of unsigned APK packages. More info <a href="http://developer.android.com/tools/device.html" target="_blank">here</a>.
 
 <img src="http://q14.imgup.net/run_androi90b7.png" />
 
