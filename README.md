@@ -3,12 +3,10 @@
 This demo utilizes Cordova's <a href=https://github.com/wildabeast/BarcodeScanner"">barcode plugin</a>, <a href="http://knockoutjs.com/" target="_blank">KnockoutJS</a> and a RESTful Service from <a href="http://www.outpan.com" target="_blank">Outpan.com</a> to gather Product information.
 
 We, at <a href="http://www.advarics.net" target="_blank">advarics GmbH</a>, use similar techniques plus some UI-frameworks, like Telerik's Kendo or DevExpress, to provide our customers instant information regarding their products & sales. 
-This example wants to show how easy a barcode scanner can be developed without touching the device-specific languages (Java, Objective-C) and environments (Android, iOS). 
+This example wants to show how quickly one can develop a barcode scanner without touching the device-specific languages (Java, Objective-C) and environments (Android, iOS). 
 
 Thanks to Cordova and Microsoft's Visual Studio Tools the development of mobile apps is straightforward and easy. Of course, the current VS Tools are in CTP and I encountered some problems while trying to run the App in the Android emulator. However, I expect them to disappear when
 the final version arrives.
-
-
 
 **Prerequisites: API-Key**
 
@@ -74,7 +72,8 @@ These settings allow the installation of unsigned APK packages. More info <a hre
 
 **Final result**
 
-<img src="http://x14.imgup.net/barcode_sca36d.png"/>
+<img src="http://l08.imgup.net/android_ba065e.png"/>
+
 
 
 **License**

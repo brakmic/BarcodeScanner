@@ -25,8 +25,18 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-            <div class="product-title" data-bind="text: result().name"></div>
-            <img class="product-image" data-bind="attr: { src: result().image }" />
+                <div class="product-title" data-bind="text: result().name"></div>
+
+                <label for="author" data-bind="visible: result().isABook">Author:</label>
+                <div id="author" class="product-author" data-bind="text: result().author, visible: result().isABook"></div>
+
+                <label for="pages" data-bind="visible: result().isABook">Pages:</label>
+                <div id="pages" class="product-pages" data-bind="text: result().pages, visible: result().isABook"></div>
+
+                <label for="published" data-bind="visible: result().isABook">Published:</label>
+                <div id="published" class="product-published" data-bind="text: result().published, visible: result().isABook"></div>
+
+                <img class="product-image" data-bind="attr: { src: result().image }, visible: result().image " />
             </div>
         </div>
     </div>

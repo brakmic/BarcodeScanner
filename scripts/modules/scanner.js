@@ -12,7 +12,7 @@
         this.result = ko.observable('NO RESULT');
         this.serviceUrl = ko.observable('http://www.outpan.com/api/get-product.php?apikey=');
         //Register here to get a free API key: http://www.outpan.com/register.php
-        this.apiKey = ko.observable('YOUR_API_KEY');
+        this.apiKey = ko.observable('YOUR_API_KEY_HERE');
         this.barcodeService = ko.computed(function () {
             return that.serviceUrl() + that.apiKey();
         });
@@ -46,7 +46,11 @@
         $.getJSON(this.barcodeService() + '&barcode=' + this.barcode()).done(function (data) {
             var productInfo = {
                 image: data.images ? data.images[0] : '#',
-                name: data.name
+                name: data.name,
+                author: data.attributes['Author(s)'] ? data.attributes['Author(s)'] : '',
+                pages: data.attributes['Page Count'] ? data.attributes['Page Count']: '',
+                published: data.attributes['Publication Date'] ? data.attributes['Publication Date'] : '',
+                isABook: data.attributes['Author(s)'] ? true : false
             };
             that.result(productInfo);
         }).fail(function (xhr, status, error) {

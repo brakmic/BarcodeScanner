@@ -1,7 +1,10 @@
 ﻿body {
 }
 
-.product-title {
+.product-title,
+.product-author,
+.product-pages,
+.product-published {
     position: relative;
     padding: 0.7em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,6 +17,8 @@
     padding-top: 1em;
     max-height: 150px; 
     max-width: 150px; 
+    border:thick;
+    border-style:solid;
 }
 
 #page-header{
